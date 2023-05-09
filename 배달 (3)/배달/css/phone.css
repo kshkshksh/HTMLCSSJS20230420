@@ -1,0 +1,19 @@
+/* @media only screen and  (max-width: 768px){
+
+
+    header>nav>#main>li{
+        display:none;
+    }
+    nav>#box{
+        display:block;
+        background-color:white;
+        width:50px;
+        height: 50px;
+    }
+    nav>#main>#box:hover #main{
+        display:block;
+
+    }
+    
+
+} */

@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+*{
+    margin:0 auto;
+    padding:0 auto;
+    font-family: 'Noto Sans KR', sans-serif; /* 폰트 */
+    font-size : 35px;
+}
+/* 아이콘 */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+ul,li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.wrap{
+    width : 1500px;
+    height: 100vh;
+}
+
+/* #wrap>#slide{
+    float:left;
+    width:1500px;
+    height: 220px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: brown;
+} */
+

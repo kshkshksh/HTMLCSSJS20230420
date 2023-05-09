@@ -1,0 +1,43 @@
+#contents2{
+    width:1500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../image/background.png);
+    background-size: contain;
+}
+
+#contents2>img{
+    width:1500px;
+    height: 500px;
+}  
+
+#contents2>.cont21>a>li {
+    text-align: center;
+    line-height: 200px;
+    border-radius: 25%;
+    height: 200px;
+    width: calc(20% - 10px);
+    margin: 15px;
+    border: 1px solid gray;
+}
+
+#contents2>.cont21>a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+#contents2>.cont21:hover li{
+    background-color: #01c0f1;
+}
+
+#contents2>.cont:hover a{
+    color:white;
+}
+
+/* 반응형 웹 1600 >768> 480 순서로 설정*/
