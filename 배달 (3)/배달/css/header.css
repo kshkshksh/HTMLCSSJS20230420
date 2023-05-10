@@ -64,12 +64,6 @@ nav>#box {
     height: 0;
 }
 
-#main li:hover>.hovermenu {
-    text-decoration: underline;
-}
-
-
-
 nav>#main>li:hover #sub{
     display: inline-block;
     width: 100%;
@@ -79,7 +73,9 @@ nav>#main>li:hover #sub{
     z-index: 1;
     color:white;
 }
-
+nav>#main li:hover>.hovermenu {
+    text-decoration: underline;
+}
 nav>#main>li:hover>a {
     text-decoration: none;
 }
@@ -91,6 +87,8 @@ nav>#main>li>#sub>li>a:hover {
 /* header>#quick {
     
 } */
-header>#quick>a>img{
-    width: 50px;
+header>.align>#quick{
+    width:40px;
+    margin-top:45px;
+    display: flex;
 }

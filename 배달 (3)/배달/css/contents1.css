@@ -17,15 +17,16 @@
     margin-left: 80px;
     flex: 2;
 }
-#contents1>div>a>H1{
+#contents1>#cont1>a>H1{
     font-size: 50px;
     font-weight: bold;
     text-decoration: none;
     color:black;
     
 }
-#contents1>div>a>p{
+#contents1>#cont1>a>p{
     font-size:16px;
+    color:black;
     margin-top:5px;
 }
 #contents1>div>#right {
@@ -41,9 +42,9 @@
 }
 
 /* 호버만들기 */
-#contents1 div:hover h1{
+#contents1 #cont1:hover h1{
   color: #01c0f1;
 }
-#contents1 div:hover #right{
+#contents1 #cont1:hover #right{
     background-color: #01c0f1;
 }

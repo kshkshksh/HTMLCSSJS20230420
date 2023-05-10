@@ -2,12 +2,12 @@ footer{
   height: 250px;
   background-color: #f2f2f2;
 }
-footer>a>img{
+footer>.align>a>img{
   float: left;
   width:100px;
   display:flex;
 }
-footer>#anne{
+footer>.align>#anne{
   position: relative;
   font-size: 18px;
   display: block;
@@ -15,26 +15,26 @@ footer>#anne{
   height: 100px;
 }
 
-footer>#anne>#phone-number{
+footer>.align>#anne>#phone-number{
   position:relative;
   font-size:30
 }
 
-footer>#anne>ul {
+footer>.align>#anne>ul {
   position:relative;
   float:left;
   margin: 0;
   padding: 0;
 }
 
-footer>#anne>ul>a{
+footer>.align>#anne>ul>a{
   text-decoration: none;
   color:black;
 }
-footer>#anne>ul>a:first-child>li{
+footer>.align>#anne>ul>a:first-child>li{
   margin-top:20px;
 }
-footer>#anne>ul>a>li {
+footer>.align>#anne>ul>a>li {
   position:relative;
   float:left;
   margin-left: 10px;
@@ -45,13 +45,13 @@ footer>#anne>ul>a>li {
   margin-top:5px;
 } */
 
-footer>#text11{
+footer>.align>#text11{
   display: inline-block;
   width:1500px;
   height: 150px;
   font-size:15px;
 }
-footer>#text11>a>img{
+footer>.align>#text11>a>img{
   width:25px;
   height: 25px;
 }
